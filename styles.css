@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    margin: 0 0 10px 0;
+    background: linear-gradient(#b9ab96, #22220F);
+    border: 00px solid; /* You need to declare the border itself */
+    border-image: linear-gradient(180deg, #b9ab96 0%, #22220F 80%);
+    border-image-slice: 1;
+    width: 100%;
+}
+
+
+h1 {
+    font-size: 130px;
+    color: #ffffff;
+    text-shadow: 5px 5px 10px black;
+    background-color: #b9ab96;
+    border-radius: 8px;
+    border-bottom: 20px solid #22220F;
+    padding: 0px 20px 10px 20px;
+    display: inline;
+}
+
+h2 {
+    color: #ffffff;
+    font-size: 60px;
+    text-shadow: 5px 5px 10px black;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 5px dotted #ffffff;
+}
+
+li {
+    color: #22220F;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+ul {
+    margin-left: 30px;
+    border-bottom: 5px solid #22220F;
+}
+
+#tour-text {
+    color: #22220F;
+    font-size: 40px;
+}
+
+#picOfMe {
+    width: 300px;
+    position: relative;
+}
+
+#body-header {
+    background-image: url("images/canton.jpeg");
+    background-size: cover;
+    padding:100px;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+}
+
+#list {
+    text-align: left;
+}
+
+#event-schedule {
+    margin-top: 80px;
+}
+
+.img-text {
+    margin: 0px 50px;
+}
+
+.img-size {
+    width: 500px;
+    border: 8px solid #22220F;
+    border-radius: 6px;
+}
+
+.body-tourguide {
+    margin-top: 100px;
+    background-color: #ffffff;
+    width: 800px;
+    padding: 10px 0 50px 0;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: -10px 10px #b9ab96;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+a:hover {
+    color: #b9ab96;
+    border-bottom: 5px dotted #b9ab96;
+}
+
+
